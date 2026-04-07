@@ -1,0 +1,14 @@
+{
+  "title": {
+    "zh-Hans": "创建完整的DataWorks项目",
+    "en-US": "Create Complete DataWorks Project"
+  },
+  "overview": {
+    "zh-Hans": "此示例演示如何创建包含所有功能的完整DataWorks项目（文件夹、连接、用户和提醒）。",
+    "en-US": "This example demonstrates how to create a complete DataWorks project with all features (folders, connections, users and reminders)."
+  },
+  "description": {
+    "zh-Hans": "创建包含所有功能的完整DataWorks项目的示例",
+    "en-US": "Example for creating complete DataWorks project with all features"
+  }
+}

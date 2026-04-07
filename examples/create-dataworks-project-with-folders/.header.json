@@ -1,0 +1,14 @@
+{
+  "title": {
+    "zh-Hans": "创建带文件夹的DataWorks项目",
+    "en-US": "Create DataWorks Project with Folders"
+  },
+  "overview": {
+    "zh-Hans": "此示例演示如何创建带有多个业务文件夹的DataWorks项目。",
+    "en-US": "This example demonstrates how to create a DataWorks project with multiple business folders."
+  },
+  "description": {
+    "zh-Hans": "创建带文件夹的DataWorks项目的示例",
+    "en-US": "Example for creating DataWorks project with folders"
+  }
+}

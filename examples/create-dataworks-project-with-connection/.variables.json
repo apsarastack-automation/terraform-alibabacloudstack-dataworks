@@ -1,0 +1,57 @@
+{
+  "project_name": {
+    "description": "The name of the DataWorks project to create.",
+    "type": "string",
+    "optional": false,
+    "i18n": {
+      "zh-Hans": "要创建的DataWorks项目名称。",
+      "en-US": "The name of the DataWorks project to create."
+    }
+  },
+  "connection_name": {
+    "description": "The name of the connection.",
+    "type": "string",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "连接的名称。",
+      "en-US": "The name of the connection."
+    },
+    "default": ""
+  },
+  "rds_instance_name": {
+    "description": "The name of the RDS instance.",
+    "type": "string",
+    "optional": false,
+    "i18n": {
+      "zh-Hans": "RDS实例的名称。",
+      "en-US": "The name of the RDS instance."
+    }
+  },
+  "db_username": {
+    "description": "The database username.",
+    "type": "string",
+    "optional": false,
+    "i18n": {
+      "zh-Hans": "数据库用户名。",
+      "en-US": "The database username."
+    }
+  },
+  "db_password": {
+    "description": "The database password.",
+    "type": "string",
+    "optional": false,
+    "i18n": {
+      "zh-Hans": "数据库密码。",
+      "en-US": "The database password."
+    }
+  },
+  "db_name": {
+    "description": "The database name.",
+    "type": "string",
+    "optional": false,
+    "i18n": {
+      "zh-Hans": "数据库名称。",
+      "en-US": "The database name."
+    }
+  }
+}

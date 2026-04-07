@@ -1,0 +1,241 @@
+{
+  "project_name": {
+    "description": "The name of the DataWorks project.",
+    "type": "string",
+    "optional": false,
+    "i18n": {
+      "zh-Hans": "DataWorks项目的名称。",
+      "en-US": "The name of the DataWorks project."
+    }
+  },
+  "task_auth_type": {
+    "description": "The task authorization type for the DataWorks project.",
+    "type": "string",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "DataWorks项目的任务授权类型。",
+      "en-US": "The task authorization type for the DataWorks project."
+    },
+    "default": "PROJECT"
+  },
+  "create_folders": {
+    "description": "Whether to create folders in the DataWorks project.",
+    "type": "bool",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "是否在DataWorks项目中创建文件夹。",
+      "en-US": "Whether to create folders in the DataWorks project."
+    },
+    "default": "false"
+  },
+  "folders": {
+    "description": "List of folder paths to create.",
+    "type": "list(string)",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "要创建的文件夹路径列表。",
+      "en-US": "List of folder paths to create."
+    },
+    "default": "[]"
+  },
+  "create_connection": {
+    "description": "",
+    "type": "bool",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "",
+      "en-US": ""
+    },
+    "default": "false"
+  },
+  "connection_name": {
+    "description": "The name of the connection.",
+    "type": "string",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "连接的名称。",
+      "en-US": "The name of the connection."
+    },
+    "default": ""
+  },
+  "connection_type": {
+    "description": "Type of connection (e.g., 'rds').",
+    "type": "string",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "连接类型（例如'rds'）。",
+      "en-US": "Type of connection (e.g., 'rds')."
+    },
+    "default": "rds"
+  },
+  "connection_sub_type": {
+    "description": "Sub-type of connection (e.g., 'mysql', 'sqlserver').",
+    "type": "string",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "连接子类型（例如'mysql'、'sqlserver'）。",
+      "en-US": "Sub-type of connection (e.g., 'mysql', 'sqlserver')."
+    },
+    "default": "mysql"
+  },
+  "connection_env_type": {
+    "description": "The environment type (0=Development, 1=Production).",
+    "type": "number",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "环境类型（0=开发环境，1=生产环境）。",
+      "en-US": "The environment type (0=Development, 1=Production)."
+    },
+    "default": "1"
+  },
+  "connection_config": {
+    "description": "Connection configuration map containing username, database, password, instanceName, etc.",
+    "type": "map(string)",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "包含username、database、password、instanceName等的连接配置映射。",
+      "en-US": "Connection configuration map containing username, database, password, instanceName, etc."
+    },
+    "default": "{}"
+  },
+  "create_reminder": {
+    "description": "Whether to create a reminder rule.",
+    "type": "bool",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "是否创建提醒规则。",
+      "en-US": "Whether to create a reminder rule."
+    },
+    "default": "false"
+  },
+  "reminder_name": {
+    "description": "The name of the reminder rule.",
+    "type": "string",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "提醒规则的名称。",
+      "en-US": "The name of the reminder rule."
+    },
+    "default": ""
+  },
+  "add_users": {
+    "description": "Whether to add users to the project.",
+    "type": "bool",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "是否添加用户到项目。",
+      "en-US": "Whether to add users to the project."
+    },
+    "default": "false"
+  },
+  "user_ids": {
+    "description": "List of user IDs to add to the project.",
+    "type": "list(string)",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "要添加到项目的用户ID列表。",
+      "en-US": "List of user IDs to add to the project."
+    },
+    "default": "[]"
+  },
+  "role_code": {
+    "description": "Role code to assign to users.",
+    "type": "string",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "要分配给用户的角色代码。",
+      "en-US": "Role code to assign to users."
+    },
+    "default": "role_project_guest"
+  },
+  "business_name": {
+    "description": "The name of the business flow.",
+    "type": "string",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "业务流程的名称。",
+      "en-US": "The name of the business flow."
+    },
+    "default": "default"
+  },
+  "engine_type": {
+    "description": "The type of the compute engine.",
+    "type": "string",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "计算引擎的类型。",
+      "en-US": "The type of the compute engine."
+    },
+    "default": "General"
+  },
+  "remind_type": {
+    "description": "Reminder type (e.g., 'TIMEOUT', 'ALERT').",
+    "type": "string",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "提醒类型（例如“超时”、“警报”）。",
+      "en-US": "Reminder type (e.g., \"TIMEOUT\", \"ALERT\")"
+    },
+    "default": "TIMEOUT"
+  },
+  "remind_unit": {
+    "description": "Reminder unit (e.g., 'PROJECT', 'TASK').",
+    "type": "string",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "提醒单位（例如“项目”、“任务”）",
+      "en-US": "Reminder unit (e.g., \"PROJECT\", \"TASK\")"
+    },
+    "default": "PROJECT"
+  },
+  "alert_unit": {
+    "description": "Alert unit (e.g., 'OTHER').",
+    "type": "string",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "告警单元（例如：“其他”）。",
+      "en-US": "Alert unit (e.g., \"OTHER\")."
+    },
+    "default": "OTHER"
+  },
+  "alert_methods": {
+    "description": "List of alert methods (e.g., 'SMS').",
+    "type": "list(string)",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "告警方式列表（例如，“短信”）",
+      "en-US": "List of alert methods (e.g., SMS)"
+    },
+    "default": "[\"SMS\"]"
+  },
+  "robot_urls": {
+    "description": "List of robot URLs to add to the project.",
+    "type": "list(string)",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "要添加到项目中的机器人URL列表。",
+      "en-US": "List of robot URLs to add to the project."
+    },
+    "default": "[]"
+  },
+  "webhooks": {
+    "description": "List of webhook URLs to add to the project.",
+    "type": "list(string)",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "要添加到项目的 Webhook URL 列表。",
+      "en-US": "List of webhook URLs to add to the project."
+    },
+    "default": "[]"
+  },
+  "remind_detail": {
+    "description": "Reminder detail.",
+    "type": "number",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "提醒详情。",
+      "en-US": "Reminder detail."
+    },
+    "default": "600"
+  }
+}

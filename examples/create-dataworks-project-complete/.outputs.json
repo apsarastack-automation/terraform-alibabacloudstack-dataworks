@@ -1,0 +1,30 @@
+{
+  "project_id": {
+    "description": "The ID of the DataWorks project.",
+    "i18n": {
+      "zh-Hans": "DataWorks项目的ID。",
+      "en-US": "The ID of the DataWorks project."
+    }
+  },
+  "project_name": {
+    "description": "The name of the DataWorks project.",
+    "i18n": {
+      "zh-Hans": "DataWorks项目的名称。",
+      "en-US": "The name of the DataWorks project."
+    }
+  },
+  "folder_ids": {
+    "description": "The IDs of the created folders.",
+    "i18n": {
+      "zh-Hans": "创建的文件夹ID列表。",
+      "en-US": "The IDs of the created folders."
+    }
+  },
+  "connection_id": {
+    "description": "The ID of the connection.",
+    "i18n": {
+      "zh-Hans": "连接的ID。",
+      "en-US": "The ID of the connection."
+    }
+  }
+}

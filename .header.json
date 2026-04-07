@@ -1,0 +1,14 @@
+{
+  "title": {
+    "zh-Hans": "DataWorks项目模块",
+    "en-US": "DataWorks Project Module"
+  },
+  "overview": {
+    "zh-Hans": "该模块用于在阿里云 Stack 上创建DataWorks项目、文件夹、数据源连接和提醒规则，支持用户和角色管理。",
+    "en-US": "This module is used to create DataWorks projects, folders, connections and reminders on Alibaba Cloud Stack, supporting user and role management."
+  },
+  "description": {
+    "zh-Hans": "用于创建DataWorks项目、文件夹、连接和提醒的Terraform模块",
+    "en-US": "Terraform module for creating DataWorks projects, folders, connections and reminders"
+  }
+}

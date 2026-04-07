@@ -1,0 +1,21 @@
+{
+  "project_name": {
+    "description": "The name of the DataWorks project to create.",
+    "type": "string",
+    "optional": false,
+    "i18n": {
+      "zh-Hans": "要创建的DataWorks项目名称。",
+      "en-US": "The name of the DataWorks project to create."
+    }
+  },
+  "folders": {
+    "description": "List of folder paths to create.",
+    "type": "list(string)",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "要创建的文件夹路径列表。",
+      "en-US": "List of folder paths to create."
+    },
+    "default": "[]"
+  }
+}

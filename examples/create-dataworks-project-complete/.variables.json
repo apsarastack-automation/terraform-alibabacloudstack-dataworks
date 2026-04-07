@@ -1,0 +1,67 @@
+{
+  "project_name": {
+    "description": "The name of the DataWorks project to create.",
+    "type": "string",
+    "optional": false,
+    "i18n": {
+      "zh-Hans": "要创建的DataWorks项目名称。",
+      "en-US": "The name of the DataWorks project to create."
+    }
+  },
+  "rds_instance_name": {
+    "description": "The name of the RDS instance.",
+    "type": "string",
+    "optional": false,
+    "i18n": {
+      "zh-Hans": "RDS实例的名称。",
+      "en-US": "The name of the RDS instance."
+    }
+  },
+  "db_username": {
+    "description": "The database username.",
+    "type": "string",
+    "optional": false,
+    "i18n": {
+      "zh-Hans": "数据库用户名。",
+      "en-US": "The database username."
+    }
+  },
+  "db_password": {
+    "description": "The database password.",
+    "type": "string",
+    "optional": false,
+    "i18n": {
+      "zh-Hans": "数据库密码。",
+      "en-US": "The database password."
+    }
+  },
+  "db_name": {
+    "description": "The database name.",
+    "type": "string",
+    "optional": false,
+    "i18n": {
+      "zh-Hans": "数据库名称。",
+      "en-US": "The database name."
+    }
+  },
+  "user_ids": {
+    "description": "List of user IDs to add to the project.",
+    "type": "list(string)",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "要添加到项目的用户ID列表。",
+      "en-US": "List of user IDs to add to the project."
+    },
+    "default": "[]"
+  },
+  "role_code": {
+    "description": "Role code to assign to users.",
+    "type": "string",
+    "optional": true,
+    "i18n": {
+      "zh-Hans": "要分配给用户的角色代码。",
+      "en-US": "Role code to assign to users."
+    },
+    "default": "role_project_guest"
+  }
+}

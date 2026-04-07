@@ -1,0 +1,14 @@
+{
+  "title": {
+    "zh-Hans": "创建基础DataWorks项目",
+    "en-US": "Create Basic DataWorks Project"
+  },
+  "overview": {
+    "zh-Hans": "此示例演示如何创建一个基础的DataWorks项目。",
+    "en-US": "This example demonstrates how to create a basic DataWorks project."
+  },
+  "description": {
+    "zh-Hans": "创建基础DataWorks项目的示例",
+    "en-US": "Example for creating basic DataWorks project"
+  }
+}
