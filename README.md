@@ -1,4 +1,3 @@
-=====
 # Alibaba Cloud DataWorks Terraform Module
 
 This module creates **DataWorks projects** on Alibaba Cloud Stack and optionally configures **folders, connections, reminders, and user management**.
